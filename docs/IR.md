@@ -122,7 +122,7 @@ A model allows named metadata strings to be added via its `metadata_props` field
 - `license`: a human-readable name for a license, if applicable
 - `license_url`: the URL where the license text is provided
 
-See the [metdata_props documentation](MetadataProps.md) for more details.
+See the [metadata category documentation](MetadataProps.md) for more details.
 
 ### Operators
 
