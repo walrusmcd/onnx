@@ -21,7 +21,7 @@ Specifically, in our first proposal we define the following set image metadata:
 |-----|----|-----------|
 |`Image.BitmapPixelFormat`|__string__|Specifies the format of pixel data.<br>Each enumeration value defines a channel ordering and bit depth.<br>Possible values: <ul><li>`Gray8`: 1 channel image, the pixel data is 8 bpp grayscale.</li><li>`Rgb8`: 3 channel image, channel order is RGB, pixel data is 8bpp (No alpha)</li><li>`Bgr8`: 3 channel image, channel order is BGR, pixel data is 8bpp (No alpha)</li><li>`Rgba8`: 4 channel image, channel order is RGBA, pixel data is 8bpp (Straight alpha)</li><li>`Bgra8`: 4 channel image, channel order is BGRA, pixel data is 8bpp (Straight alpha)</li></ul>|
 |`Image.ColorSpaceGamma`|__string__|Specifies the gamma color space used.<br>Possible values:<ul><li>`Linear`: Linear color space, gamma == 1.0</li><li>`SRGB`: sRGB color space, gamma == 2.2</li></ul>|
-|`Image.NormalizedPixelRange`|__string__|Specifies the range that pixel values are normalized into for the tensor.  Two numbers: from and to, used as from-to.<br>Example values:<ul><li>`0-255`</li><li>`0-1`</li></ul>|
+|`Image.NormalizedPixelRange`|__string__|Specifies the range that pixel values are normalized into for the tensor.  Expressed in a string format as two numbers: from-to.<br>Example values:<ul><li>`0-255`</li><li>`0-1`</li></ul>|
 
 
 		
